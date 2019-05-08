@@ -11,8 +11,8 @@ In any text, Some characters occurs more frequently than others, **This algorith
  
 * **priority queue** to store nodes.Then we use pq.top() to get the minimum value node in the node sequence and new node value can be placed in the appropriate position of the sequence. 
 * **STL map** to store each pair of huffman code.
-* **pseudo-eof** (id = 256, frequence = 1) and insert it at the end of the encoded text. Then the program will know where the text ends.
-* **Writing the frequence table** in compressed.txt, and then when decompressing I can rebuild the huffman table from this table.
+* **pseudo-eof** (id = 256, frequence = 1) and inserting it at the end of the encoded text. Then the program will know where the text ends.
+* **Writing the frequence table** in compressed.txt, and then when decompressing we can rebuild the huffman table from this table.
 
 # The steps of the code
 1. create a leaf node for each character and add them to the priority queue. 
